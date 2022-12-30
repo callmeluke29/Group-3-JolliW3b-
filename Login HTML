@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css">
+        <title>Log in | Sign up</title>
+    </head>
+    <body>
+        <div class="container">
+            <form class="form">
+                <h2>Sign in</h2>
+                <input type="text" class="box" placeholder="Username" required>
+                <input type="password" class="box" placeholder="Password" required>
+                <input type="submit" id="submit" value="Sign in">
+                <a href="#">Forgot password?</a>
+                <div class="mem">
+                    <label>Not a member?</label>
+                    <a class="b" href="membership.html">Join us</a>
+                </div>
+            </form>
+            <div class="image">
+                <img src="https://i.postimg.cc/8kZS7Qbs/signup.jpg">
+            </div>
+        </div>
+    </body>
