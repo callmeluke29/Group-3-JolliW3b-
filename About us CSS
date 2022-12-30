@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    width: 100%;
+    height: 900px;
+    margin-bottom: 0;
+    background-color: #e8e4ce;
+}
+
+.about .svfc {
+    display: flex;
+}
+
+.svfc img {
+    height: 100px;
+    width: 100px;
+    margin-top: 0;
+}
+
+.about .cescca {
+    color: #3f3e3f;
+    margin-top: 36px;
+    margin-left: 5px;
+}
+
+.about nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+    padding: 20px 10px;
+}
+
+.about nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 12px;
+    font-weight: bold;
+    background-color: #3f3e3f;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.about nav ul li a {
+    text-decoration: none;
+    color: #e8e4ce;
+}
+
+.about .content {
+    margin: 50px 20px;
+    height: 600px;
+    background-color: #3f3e3f;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.infos {
+    display: flex;
+    width: 1300px;
+    height: 500px;
+}
+
+.infos img {
+    margin: 0 50px;
+}
+
+.about h1 {
+    margin: 20px 20px;
+    padding: 0 20px;
+    width: 140px;
+    border-radius: 20px;
+    color: #e8e4ce;
+    background-color: #3f3e3f;
+}
+
+.txt {
+    margin: 0 40px;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    
+}
+
+.about p {
+    margin: 40px;
+    padding: 30px 5px;
+    color: #e8e4ce;
+}
+
+img {
+    width: 450px;
+    margin: 10px 20px;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: #e8e4ce;
+}
+
+.foot {
+    width: 100%;
+    height: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    margin-top: 50px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials li a {
+    text-decoration: none;
+    color: #3f3e3f;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: #ff0000;
+}
+
+.footer-bottom {
+    background-color: #3f3e3f;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 14px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    color: #e8e4ce;
+}
