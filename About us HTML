@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/c4b48522c3.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="about.css">
+        <title>About us</title>
+    </head>
+    <body>
+        <section class="about">
+            <div class="container">
+                <nav>
+                    <div class="svfc">
+                        <img src="https://i.postimg.cc/4NcZ66j9/svfclogo-removebg-preview.png">
+                        <h2 class="cescca">CESCCA</h2>
+                    </div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Clubs</a></li>
+                        <li><a href="#">Button</a></li>
+                        <li><a href="#">Button</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <h1>About us</h1>
+            <div class="content">
+                <div class="infos">
+                    <img src="https://i.postimg.cc/1typMdV8/dance-club.jpg">
+                    <div class="txt">
+                        <p>
+                            Welcome to the CESCCA Club at SVFC!
+                            <br>
+                            <br>
+                            We are the Center for Students Clubs and Cultural Affairs, and we are dedicated to promoting and supporting the diverse range of curtural and artistic  activities at our school. Our club is open for all students who are interested in joining , regardless or their experience level.
+                            <br>
+                            <br>
+                            Our mission is to create a vibrant and inclusive community where students can express themselves through music, dance, and other forms of artistic expression. We offer a wide range or activities for our members including singing, dancing, rondalla, and voice clubs.
+                            <br>
+                            <br>
+                            In addition to our weekly rehearsals, we also offer workshops and masterclass with guest artists, giving our members the chance to learn from proffesionals in their field. We also participate in local and regional competitions, giving our members the opportunity to showcase their talents and connect with other artists.
+                            <br>
+                            <br>
+                            If you are interested in joining the CESCCA Club, we welcome you to come to one of our meetings or rehearsal to see what we are all about. We look forward to making music and dance with you! 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="foot">
+                <div class="footer-content">
+                    <h2>SVFC | Cescca</h2>
+                    <ul class="socials">
+                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></li> 
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></li> 
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
