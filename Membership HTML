@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="membership.css">
+        <title>Member sign up</title>
+    </head>
+    <body>
+       <div class="container">
+        <div class="title">Wanna join us?</div>
+        <form action="#">
+            <div class="usr-details">
+                <div class="input-box">
+                    <span class="details">Last name</span>
+                    <input type="text" placeholder="Your last name" required>
+                </div>
+                <div class="input-box">
+                    <span clllass="details">First name</span>
+                    <input type="text" placeholder="Your first name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Address</span>
+                    <input type="text" placeholder="Your address" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone number</span>
+                    <input type="text" placeholder="Your number" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email address</span>
+                    <input type="email" placeholder="Your email address" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Birthdate</span>
+                    <input type="date" placeholder="Your last name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Preffered club</span>
+                    <input type="text" placeholder="Your chosen club" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="password" placeholder="Your password" required>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+       </div>
+    </body>
+</html>
