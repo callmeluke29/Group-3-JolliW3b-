@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/c4b48522c3.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="search.css">
+        <title>Search</title>
+    </head>
+    <body>
+        <div class="search-box">
+            <input class="search-txt" type="text" placeholder="Type here">
+            <a class="search-btn" href="#" class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+        </div>
+    </body>
+</html>
