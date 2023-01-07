@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="membership.css">
+        <title>Member sign up</title>
+    </head>
+    <body>
+       <div class="container">
+        <div class="title">Wanna join us?</div>
+        <form action="#">
+            <div class="usr-details">
+                <div class="input-box">
+                    <span class="details">Last name</span>
+                    <input type="text" placeholder="Your last name" required>
+                </div>
+                <div class="input-box">
+                    <span clllass="details">First name</span>
+                    <input type="text" placeholder="Your first name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Address</span>
+                    <input type="text" placeholder="Your address" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone number</span>
+                    <input type="text" placeholder="Your number" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email address</span>
+                    <input type="email" placeholder="Your email address" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Birthdate</span>
+                    <input type="date" placeholder="Your last name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Preffered club</span>
+                    <input type="text" placeholder="Your chosen club" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="password" placeholder="Your password" required>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+       </div>
+    </body>
+</html>
+
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e4ce;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    padding: 25px 30px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.container .title {
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    color: #3f3e3f;
+}
+
+.container .title::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.container form .usr-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .usr-details .input-box {
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+
+.usr-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.usr-details .input-box input {
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    border-bottom-width: 2px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    transition:  all 0.3a ease;
+}
+
+.usr-details .input-box input:focus,
+.usr-details .input-box input:valid {
+    border-color: #3f3e3f;
+}
+
+.button {
+    margin: 45px 0;
+    height: 45px;
+    width: 100%;
+}
+
+.button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #e8e4ce;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #3f3e3f;
+    box-shadow: inset 0 0 0 0 #e10044;
+    transition: ease-out 1s;
+}
+
+.button input:hover {
+    cursor: pointer;
+    box-shadow: inset 2500px 0 0 0 #e10044;
+}
+
+@media(max-width: 584px) {
+    .container {
+        max-width: 100%;
+    }
+    form .usr-details .input-box {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .container form .usr-details  {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+}
+
+.details {
+    color: #3f3e3f;
+}
+
+input[type="date"] {
+    background-color: transparent;
+    outline: none;
+}
+</style>
